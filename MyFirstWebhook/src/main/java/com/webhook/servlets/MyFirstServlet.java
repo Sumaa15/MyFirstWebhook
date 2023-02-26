@@ -10,14 +10,14 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class MyWebhookServlet
  */
-@WebServlet("/MyWebhookServlet")
-public class MyWebhookServlet extends HttpServlet {
+@WebServlet("/MyFirstServlet")
+public class MyFirstServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public MyWebhookServlet() {
+    public MyFirstServlet() {
         super();
     }
 
